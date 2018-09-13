@@ -186,17 +186,6 @@
     background-image: url(images/sp-star.png);
 }
 
-.sp-star {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 4px;
-    /* width: 12px;
-    height: 12px; */
-    background-size: contain;
-    cursor: pointer;
-    background-repeat: no-repeat;
-}
-
 .btn-keywords .sp-star {
     position: relative;
     top: -2px;
@@ -204,13 +193,32 @@
     height: 16px;
 }
 
+.sp-star {
+    /* background-image: url(images/sp-star.png); */
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
 /* Footer */
 
-footer {
+#footer {
     background-color: #eaecee;
     /* display: block;
     height: 40px;
     width: 827px; */
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+}
+
+footer {
+    bottom: 0px;
 }
 
 .leftfooter {
