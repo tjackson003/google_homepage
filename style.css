@@ -1,0 +1,253 @@
+/* Navigation */
+
+.leftnav {
+    float: left;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 24px;
+    width: 96.6875px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+}
+
+.leftnav a {
+    padding: 0px 7px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0, 0.75);
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.rightnav {
+    float: right;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 24px;
+    width: 240.906px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+}
+
+.rightnav a {
+    padding: 0px 7px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0, 0.75);
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.rightnav img {
+    vertical-align: middle;
+    width: 20.09px;
+    height: 19.19px;
+    opacity: .55;
+}
+
+.rightnav button {
+    background-color: rgb(66, 133, 244);
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
+    line-height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Overall Middle Section */
+
+.middle {
+    margin: auto;
+    padding-top: 82px;
+    text-align: center;
+    width: 100%;
+}
+
+/* GOOGLE logo */
+
+#mainlogo {
+    height: 92px;
+    width: 272;
+    padding-top: 109px;
+    text-align: center;
+}
+
+/* Search Bar */
+
+.searchbar {
+    width: 580px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgb(200, 200, 200, 0.85);
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.searchbar input {
+    width: 90%;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+    border: none;
+}
+
+.searchbar img {
+    width: 25px;
+    height: 26.78px;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+}
+
+/* Search Buttons */
+
+.searchbuttons {
+    padding-top: 28px;
+}
+
+.searchbuttons #btnsearch {
+    color: rgb(117, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0px 16px;
+    border-width: 1px;
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    background-color: rgb(242, 242, 242);
+    margin: 4px;
+}
+
+.searchbuttons #btnluck {
+    color: rgb(117, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0px 16px;
+    border-width: 1px;
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    background-color: rgb(242, 242, 242);
+    margin: 4px;
+}
+
+/* Other Buttons */
+
+.otherbuttons {
+    position: fixed;
+    right: 20px;
+    z-index: 2147483646;
+    bottom: 50px;
+}
+
+.btn-keywords, .btn-export {
+    height: 32px;
+    font: 16px/32px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    padding: 0px 6px;
+    border-radius: 4px;
+    color: rgb(136, 136, 136);
+    background-color: rgb(238, 238, 238);
+}
+
+.btn-keywords:hover, .btn-export:hover {
+    color: rgb(51, 51, 51);
+    background: rgb(221, 221, 221);
+}
+
+.sp-icon {
+    margin-left: 8px;
+    z-index: 2147483646;
+    cursor: pointer;
+}
+
+.sp-star[data-state="off"] {
+    background-image: url(images/sp-star.png);
+}
+
+.sp-star {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    /* width: 12px;
+    height: 12px; */
+    background-size: contain;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.btn-keywords .sp-star {
+    position: relative;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #eaecee;
+    /* display: block;
+    height: 40px;
+    width: 827px; */
+}
+
+.leftfooter {
+    position: relative;
+    padding-left: 0px;
+    bottom: 10px;
+    width: 174.688px;
+}
+
+.leftfooter a, .rightfooter a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    line-height: 40px;
+    padding-left: 27px;
+}
+
+.rightfooter {
+    float: right;
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+    width: 213.25px;
+}
+
+/* Combined Misc */
+
+.leftnav, .rightnav, .leftfooter, .rightfooter {
+    display: inline-block;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    height: 24px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
